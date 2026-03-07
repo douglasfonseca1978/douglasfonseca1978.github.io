@@ -30,8 +30,12 @@ padding:40px;
 
 .card{
 background:#1e293b;
-padding:20px;
+padding:15px;
 border-radius:10px;
+transition:0.3s;
+}
+.card:hover{
+transform:scale(1.05);
 }
 
 .card a{
@@ -39,10 +43,18 @@ color:#38bdf8;
 text-decoration:none;
 font-weight:bold;
 }
-
 .card a:hover{
 text-decoration:underline;
 }
+.card img{
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
+}
+
+
+
+
 
 </style>
 
@@ -51,27 +63,31 @@ text-decoration:underline;
 <body>
 
 <header>
-Meu Portfólio de Projetos
+    <h1>Douglas Fonseca</h1>
+    <h2>Meu Portfólio de Projetos</h2>
 </header>
 
 <section class="projetos">
 
 <div class="card">
-<h2>AluraBooks</h2>
-<p>Projeto responsivo de livraria.</p>
-<a href="https://douglasfonseca1978.github.io/alurabooks/">Ver projeto</a>
+    <img src="imagens/alurabooks.png" alt="Projeto AluraBooks">
+    <h2>AluraBooks</h2>
+    <p>Projeto responsivo de livraria.</p>
+    <a href="https://douglasfonseca1978.github.io/alurabooks/">Ver projeto</a>
 </div>
 
 <div class="card">
-<h2>Alura Plus</h2>
-<p>Landing page de streaming.</p>
-<a href="https://douglasfonseca1978.github.io/alura_plus/">Ver projeto</a>
+    <img src="imagens/aluraplus.png" alt="Projeto AluraPlus">
+    <h2>Alura Plus</h2>
+    <p>Landing page de streaming.</p>
+    <a href="https://douglasfonseca1978.github.io/alura_plus/">Ver projeto</a>
 </div>
 
 <div class="card">
-<h2>Google Glass</h2>
-<p>Projeto do curso HTML/CSS/JavaScript</p>
-<a href="https://douglasfonseca1978.github.io/projeto-glass-html5/">Ver projeto</a>
+    <img src="imagens/googleglass.png" alt="Projeto googleGlass">
+    <h2>Google Glass</h2>
+    <p>Projeto do curso HTML/CSS/JavaScript</p>
+    <a href="https://douglasfonseca1978.github.io/projeto-glass-html5/">Ver projeto</a>
 </div>
 
 </section>
